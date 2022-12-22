@@ -1,4 +1,4 @@
-FROM quay.io/sampandey001/secktor
+FROM quay.io/dayanisuru/secktor
 RUN git clone https://github.com/dayanisuru/king-Queen1 /root/Isuru
 WORKDIR /root/Isuru/
 RUN npm install npm@latest
